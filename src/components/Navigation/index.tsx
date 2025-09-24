@@ -1,6 +1,7 @@
 import * as S from "./styled";
 import { useState, type FC } from "react";
 import { Hamburger } from "./components/Hamburger";
+import logo from "../../static/images/logo.png";
 
 export const Navigation: FC = () => {
     // to update values for all components, keep the state here
@@ -11,18 +12,18 @@ export const Navigation: FC = () => {
             <S.NavigationListWrapper $isOpen={isOpen}>
                 <S.NavigationList>
                     <li>
-                        <a href="/">Cybernetic</a>
+                        <a href="/">Services</a>
                     </li>
                     <li>
                         <a
-                            href="https://codexcode.store/themes/cybernetic-website-template"
+                            href="logo.png"
                             target="_blank"
                         >
-                            Pro version
+                            About
                         </a>
                     </li>
                     <li>
-                        <a href="/infinite">Infinite</a>
+                        <a href="/infinite">FAQ</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>

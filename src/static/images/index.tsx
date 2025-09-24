@@ -9,6 +9,8 @@ import HeroSlider3 from "./hero-slider-03.webp";
 
 import InfiniteImg1 from "./infinite-img-1.webp";
 import InfiniteImg2 from "./infinite-img-2.webp";
+import logo from "../../static/images/logo.png";
+
 
 export const images = {
     preview: PreviewPng,
@@ -52,7 +54,7 @@ export const Image: FC<ImageProps> = ({
 
     return (
         <img
-            src={image.src}
+            src={logo.src}
             alt={alt}
             width={width ? width : image.width}
             height={height ? height : image.height}

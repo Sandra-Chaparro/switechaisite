@@ -28,10 +28,10 @@ export const Contact: FC = () => {
                             variant="background-text"
                             bgText="Email"
                             boxAsLink={true}
-                            href="mailto:youremail@gmail.com"
+                            href="switechaisoftware@gmail.com"
                             target="_blank"
                         >
-                            <h3>youremail@gmail.com</h3>
+                            <h3>switechaisoftware@gmail.com</h3>
                             <p>
                                 also you can write me an email if you have any
                                 questions
