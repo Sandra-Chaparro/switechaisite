@@ -1,5 +1,6 @@
 import { type FC } from "react";
 import PreviewPng from "./preview.webp";
+import PreviewMsg from "./PreviewMsg.png";
 import HeroImg from "./hero-img.webp";
 import Logo from "./logo.webp";
 
@@ -13,7 +14,7 @@ import logo from "../../static/images/logo.png";
 
 
 export const images = {
-    preview: PreviewPng,
+    preview: PreviewMsg,
     heroImg: HeroImg,
     logo: Logo,
 };
