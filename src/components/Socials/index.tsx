@@ -6,16 +6,7 @@ export const Socials: FC = ({ ...rest }) => {
     return (
         <S.SocialsStyled {...rest}>
             <S.SocialsList>
-                <S.SocialsListItem>
-                    <S.SocialsLink
-                        href="https://github.com"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <p>Github</p>
-                        <Icon iconData="github" alt="github icon" />
-                    </S.SocialsLink>
-                </S.SocialsListItem>
+       
                 <S.SocialsListItem>
                     <S.SocialsLink
                         href="https://linkedin.com"
