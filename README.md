@@ -1,6 +1,6 @@
 # 🚀Cybernetic Template - Astro + React
 
-![Cybernetic Template](/src/static/images/preview.webp)
+![Cybernetic Template](/src/static/images/previewMsg.webp)
 [<img src="/src/static/images/link-pro.png">](https://codexcode.store/themes/cybernetic-website-template)
 [<img src="/src/static/images/link-live.png">](https://cybernetic-astro.netlify.app/)
 [<img src="/src/static/images/link-contact.png">](https://codexcode.store/contact)
