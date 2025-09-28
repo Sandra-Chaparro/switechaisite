@@ -1,6 +1,6 @@
 import { type FC } from "react";
 import PreviewPng from "./preview.webp";
-import PreviewMsg from "./PreviewMsg.png";
+import PreviewMsg from "./previewMsg.webp";
 import HeroImg from "./hero-img.webp";
 import Logo from "./logo.webp";
 
