@@ -1,0 +1,81 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Hero } from "@modules/Hero";
+import { HeroSlider3, InfiniteImg1, InfiniteImg2 } from "@static/images";
+import { ServiceCards } from "@modules/ServiceCards";
+import { Footer } from "@modules/Footer";
+---
+
+<Layout
+    title="Cybernetic | Homepage"
+    description="YOUR META DESCRIPTION FOR SEO"
+>
+    <main class="page-content">
+        <Hero
+            heroType="ParallaxImage"
+            client:visible
+            data={{
+                image: HeroSlider3.src,
+                content: {
+                    title: "SERVICES",
+                    paragraph:
+                        "Comprehensive Services to Empower Your Business",
+                },
+            }}
+        />
+        <ServiceCards
+         
+            title="Customized Solutions for Every Challenge"
+            client:visible
+            cards={[
+                {
+                    title: "Secure Software Development Lifecycle",
+                    description:
+                        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+                },
+                {
+                    title: "Application Security Audit",
+                    description:
+                        "identify app vulnerabilities and safeguard sensitive data. This minimizes cyber threats and prevents breaches.",
+                },
+                {
+                    title: "Penetration Testing",
+                    description:
+                        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+                },
+                {
+                    title: "Software Composition Analysis",
+                    description:
+                        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+                },
+                {
+                    title: "DevSecOps / Secure CI/CD Pipeline Integration",
+                    description:
+                        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+                },
+                {
+                    title: "Network Security / Segmentation / Zero Trust",
+                    description:
+                        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+                },
+            ]}
+        />
+
+        <Hero
+            heroType="textImage"
+            client:visible
+            data={{
+                image: {
+                    src: InfiniteImg1.src,
+                    width: 590,
+                    height: 300,
+                    alt: "Hero Image",
+                },
+                title: "Lets make you Infinite!",
+                paragraph:
+                    "Become a part of the Infinite community and start sharing your thoughts, ideas, and experiences with like-minded people.",
+            }}
+        />
+    </main>
+    <Footer />
+</Layout>

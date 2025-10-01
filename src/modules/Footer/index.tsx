@@ -11,7 +11,7 @@ export const Footer: FC = () => {
                 <S.FooterContainer>
                     <Logo />
                     <S.FooterContent>
-                        <p>© 2024 All rights reserved by codexcode.pl</p>
+                        <p>© 2025 All rights reserved by SWITECHAI</p>
                     </S.FooterContent>
                 </S.FooterContainer>
                 <Socials />
