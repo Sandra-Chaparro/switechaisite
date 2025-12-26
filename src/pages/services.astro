@@ -1,21 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "@modules/Hero";
-import { HeroSlider3, InfiniteImg1, InfiniteImg2 } from "@static/images";
+import { serviceBgn, InfiniteImg1 } from "@static/images";
 import { ServiceCards } from "@modules/ServiceCards";
 import { Footer } from "@modules/Footer";
 ---
 
 <Layout
-    title="Cybernetic | Homepage"
-    description="YOUR META DESCRIPTION FOR SEO"
+    title="SWITECHAI | Homepage"
+    description="Custom secure software development that accelerates business growth through modern digital transformation. Build reliable, scalable solutions."
 >
     <main class="page-content">
         <Hero
             heroType="ParallaxImage"
             client:visible
             data={{
-                image: HeroSlider3.src,
+                image: serviceBgn.src,
                 content: {
                     title: "SERVICES",
                     paragraph:
@@ -71,9 +71,9 @@ import { Footer } from "@modules/Footer";
                     height: 300,
                     alt: "Hero Image",
                 },
-                title: "Lets make you Infinite!",
+                title: "Transforming ideas into secure digital experiences!",
                 paragraph:
-                    "Become a part of the Infinite community and start sharing your thoughts, ideas, and experiences with like-minded people.",
+                    "Let’s build something great together — your success is our priority.",
             }}
         />
     </main>

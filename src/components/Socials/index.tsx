@@ -8,32 +8,12 @@ export const Socials: FC = ({ ...rest }) => {
             <S.SocialsList>
                 <S.SocialsListItem>
                     <S.SocialsLink
-                        href="https://github.com"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <p>Github</p>
-                        <Icon iconData="github" alt="github icon" />
-                    </S.SocialsLink>
-                </S.SocialsListItem>
-                <S.SocialsListItem>
-                    <S.SocialsLink
                         href="https://linkedin.com"
                         target="_blank"
                         rel="noreferrer"
                     >
                         <p>LinkedIn</p>
                         <Icon iconData="linkedin" alt="linkedin icon" />
-                    </S.SocialsLink>
-                </S.SocialsListItem>
-                <S.SocialsListItem>
-                    <S.SocialsLink
-                        href="https://facebook.com"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <p>Facebook</p>
-                        <Icon iconData="facebook" alt="facebook icon" />
                     </S.SocialsLink>
                 </S.SocialsListItem>
                 <S.SocialsListItem>
@@ -48,7 +28,7 @@ export const Socials: FC = ({ ...rest }) => {
                 </S.SocialsListItem>
                 <S.SocialsListItem>
                     <S.SocialsLink
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/switechai/"
                         target="_blank"
                         rel="noreferrer"
                     >

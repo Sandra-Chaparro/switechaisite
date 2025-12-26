@@ -3,4 +3,4 @@ Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /private/
 
-Sitemap: http://www.CHANGEME.com/sitemap.xml
+Sitemap: https://www.switechai.com/sitemap.xml

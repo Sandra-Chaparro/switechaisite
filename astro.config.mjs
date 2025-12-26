@@ -3,7 +3,7 @@ import react from "@astrojs/react";
 import CompressionPlugin from "vite-plugin-compression";
 import sitemap from "@astrojs/sitemap";
 
-export const siteUrl = "https://cybernetic-free-version.netlify.app";
+export const siteUrl = "https://www.switechai.com/";
 
 const date = new Date().toISOString();
 // https://astro.build/config

@@ -22,7 +22,7 @@ export const Navigation: FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/infinite">FAQ</a>
+                        <a href="/FAQ">FAQ</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
