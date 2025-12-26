@@ -1,7 +1,7 @@
 ---
-import { contact } from "@static/images";
+import { faq } from "@static/images";
 import Layout from "../layouts/Layout.astro";
-import { FAQ } from "@modules/FAQ";
+import { FAQ as FaqModule } from "@modules/FAQ";
 import { Hero } from "@modules/Hero";
 import { Footer } from "@modules/Footer";
 ---
@@ -15,7 +15,7 @@ import { Footer } from "@modules/Footer";
             heroType="ParallaxImage"
             client:load
             data={{
-                image: contact.src,
+                image: faq.src,
                 content: {
                     title: "FAQ",
                     paragraph:
@@ -23,7 +23,7 @@ import { Footer } from "@modules/Footer";
                 },
             }}
         />
-        <FAQ client:load />
+        <FaqModule client:load />
     </main>
     <Footer />
 </Layout>

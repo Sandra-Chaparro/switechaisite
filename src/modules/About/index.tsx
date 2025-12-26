@@ -1,54 +1,36 @@
 import React, { type FC } from "react";
-
 import * as S from "./styled";
-import { TextBox } from "@components/textBox";
-import { Container } from "@components/Container";
-import { FadeIn } from "@utils/animations/FadeIn";
 
-type FAQ = {
-    title?: string;
-    description?: string;
-    cards?: {
-        title: string;
-        description: string;
-    }[];
-};
-
-export const FAQ: FC<FAQ> = ({
-    cards,
-    description,
-    title,
-}) => {
-    // do not render if there are no cards
-
-    if (!cards || !cards.length) {
-        return null;
-    }
-
-    const cardsElements = cards.map((card, index) => {
-        return (
-            <FadeIn key={index}>
-                <TextBox>
-                    <h3>{card.title}</h3>
-                    <p>{card.description}</p>
-                </TextBox>
-            </FadeIn>
-        );
-    });
-
+export const About: FC = () => {
     return (
-        <S.ServiceCardsStyled>
-            <Container>
-                {title && description && (
-                    <FadeIn>
-                        <S.ServiceCardsHeading>
-                            {description && <p>{description}</p>}
-                            {title && <h2>{title}</h2>}
-                        </S.ServiceCardsHeading>
-                    </FadeIn>
-                )}
-                <S.ServiceCardsGrid>{cardsElements}</S.ServiceCardsGrid>
-            </Container>
-        </S.ServiceCardsStyled>
+        <S.AboutStyled>
+            <S.AboutContent>
+                <p>
+                    At SwitechAI, we transform complex business challenges into elegant software solutions. As a forward-thinking software consultancy, we specialize in building custom applications, designing scalable system architectures, and integrating intelligent chatbots that enhance customer engagement.
+                </p>
+                <p>
+                    Our team of experienced developers and consultants works closely with businesses to understand their unique needs and deliver technology solutions that drive growth. From cloud infrastructure to modern web applications, we leverage cutting-edge technologies to help companies stay competitive in an ever-evolving digital landscape.
+                </p>
+                <p>
+                    Whether you're a startup looking to build your first application or an established enterprise trying to create your first system or application, we bring the expertise, creativity, and dedication needed to bring your vision to life. We don't just write code—we build partnerships that last.
+                </p>
+                
+                <p><strong>Our Mission</strong></p>
+                <p>
+                    To empower businesses with innovative technology solutions that simplify operations, enhance user experiences, and unlock new opportunities for growth.
+                </p>
+                
+                <p><strong>Why Choose Us?</strong></p>
+                <ul>
+                    <li>Tailored solutions designed specifically for your business needs.</li>
+                    <li>Expert team with diverse technical expertise.</li>
+                    <li>Commitment to quality, security, and best practices.</li>
+                    <li>Transparent communication throughout the project lifecycle.</li>
+                    <li>Ongoing support and maintenance to ensure long-term success.</li>
+                </ul>
+                
+                <p>Let's build something extraordinary together.</p>
+            </S.AboutContent>
+        </S.AboutStyled>
     );
 };

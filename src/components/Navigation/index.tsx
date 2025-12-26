@@ -16,7 +16,7 @@ export const Navigation: FC = () => {
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="/about"
                         >
                             About
                         </a>

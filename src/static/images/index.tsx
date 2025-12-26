@@ -12,6 +12,8 @@ import InfiniteImg1 from "./infinite-img-1.webp";
 import InfiniteImg2 from "./infinite-img-2.webp";
 import serviceBgn from "./serviceBgn.webp";
 import contact from "./contact.webp";
+import faq from "./faq.webp";
+import about from "./about.webp";
 import logo from "../../static/images/logo.png";
 
 
@@ -76,5 +78,7 @@ export {
     InfiniteImg1,
     InfiniteImg2,
     serviceBgn,
-    contact
+    contact,
+    faq, 
+    about
 };

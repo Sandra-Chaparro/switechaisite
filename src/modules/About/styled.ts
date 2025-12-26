@@ -2,9 +2,9 @@ import styled from "@emotion/styled";
 import { Theme } from "@styles/colors";
 import { MediaQuery } from "@styles/mediaQuery";
 
-export const ServiceCardsStyled = styled.section`
+export const AboutStyled = styled.section`
     background: ${Theme.primary};
-    padding-top: 90px;
+    padding: 50px 0 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     margin: -43px 0 50px;
@@ -12,49 +12,22 @@ export const ServiceCardsStyled = styled.section`
     position: relative;
 `;
 
-export const ServiceCardsHeading = styled.div`
-    color: ${Theme.secondary};
-
-    margin-bottom: 40px;
-    max-width: 550px;
+export const AboutContent = styled.div`
+    color: ${Theme.tertiary};
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
 
     p {
-        color: ${Theme.tertiary};
-    }
-
-    h2 {
-        font-size: 60px;
-        line-height: 1.2;
-        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        letter-spacing: -0.3px;
+        opacity: 0.9;
 
         ${MediaQuery.max("lg")} {
-            font-size: 40px;
-            line-height: 1.2;
+            font-size: 16px;
+            line-height: 1.6;
         }
-    }
-`;
-
-export const ServiceCardsGrid = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-
-    ${MediaQuery.max("lg")} {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    h3 {
-        font-size: 20px;
-        line-height: 1.2;
-        margin-bottom: 5px;
-    }
-
-    p {
-        margin: 0;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: -0.5px;
-        opacity: 0.8;
     }
 `;
