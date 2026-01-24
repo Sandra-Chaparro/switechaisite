@@ -71,8 +71,9 @@ export const FullPageSlider: FC<FullPageSliderProps> = ({ content }) => {
                     speed: 1000,
                     spaceBetween: 0,
                     effect: "slide",
-                    loop: false,
-                    grabCursor: true, // Add this line
+                    loop: true,
+                    grabCursor: true, 
+                    initialSlide: 1, 
                     pagination: {
                         // Add this option
                         el: ".swiper-pagination",

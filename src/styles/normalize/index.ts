@@ -49,7 +49,7 @@ export const NormalizeCSS = css`
         }
 
         &::-webkit-scrollbar {
-            width: 17px;
+            width: 10px;
             background: ${Theme.secondary};
         }
 
@@ -58,7 +58,7 @@ export const NormalizeCSS = css`
         }
 
         &::-webkit-scrollbar-thumb {
-            background-color: #7c2a04;
+            background-color: #0C58AD;
         }
 
         &.hide-overflow {

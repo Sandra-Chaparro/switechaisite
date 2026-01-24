@@ -36,7 +36,7 @@ export const ServiceCardsHeading = styled.div`
 
 export const ServiceCardsGrid = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 
     ${MediaQuery.max("lg")} {
@@ -46,15 +46,16 @@ export const ServiceCardsGrid = styled.div`
 
     h3 {
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 2.2;
         margin-bottom: 5px;
     }
 
     p {
-        margin: 0;
+        
+        margin-top: 12px;
         font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: -0.5px;
-        opacity: 0.8;
+        opacity: 0.5;
     }
 `;
