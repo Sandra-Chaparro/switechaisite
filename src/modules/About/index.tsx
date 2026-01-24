@@ -1,36 +1,47 @@
 import React, { type FC } from "react";
 import * as S from "./styled";
+import { ServiceCards } from "@modules/ServiceCards";
+import { Container } from "@components/Container";
 
 export const About: FC = () => {
-    return (
+    return (<>
         <S.AboutStyled>
             <S.AboutContent>
                 <p>
-                    At SwitechAI, we transform complex business challenges into elegant software solutions. As a forward-thinking software consultancy, we specialize in building custom applications, designing scalable system architectures, and integrating intelligent chatbots that enhance customer engagement.
+                    At SwitechAI we specialize in creating custom websites and web solutions built from the ground up, without relying on generic templates or platforms. With a background in software engineering, we bring technical expertise and creative problem-solving to every project, ensuring your website is uniquely yours.
                 </p>
-                <p>
-                    Our team of experienced developers and consultants works closely with businesses to understand their unique needs and deliver technology solutions that drive growth. From cloud infrastructure to modern web applications, we leverage cutting-edge technologies to help companies stay competitive in an ever-evolving digital landscape.
-                </p>
-                <p>
-                    Whether you're a startup looking to build your first application or an established enterprise trying to create your first system or application, we bring the expertise, creativity, and dedication needed to bring your vision to life. We don't just write code—we build partnerships that last.
-                </p>
-                
-                <p><strong>Our Mission</strong></p>
-                <p>
-                    To empower businesses with innovative technology solutions that simplify operations, enhance user experiences, and unlock new opportunities for growth.
-                </p>
-                
+                <p>Whether you're a freelancer looking to showcase your work or a business needing custom functionality, we're here to bring your digital vision to life.</p>
+
+            </S.AboutContent>
+        </S.AboutStyled>
+
+            <ServiceCards
+                title="Our Mission & Vision"
+                cards={[
+                    {
+                        title: "Vision",
+                        description: "To empower businesses and individuals with custom web solutions that reflect their unique identity and help them succeed in the digital world."
+                    },
+                    {
+                        title: "Mission",
+                        description: "We create tailored websites and web applications that combine clean code, thoughtful design, and powerful functionality. Our mission is to deliver digital solutions that not only meet our clients' needs but exceed their expectations, providing them with the tools to grow their online presence and achieve their goals."
+                    }
+                ]}
+            />
+
+        <S.AboutStyled>
+            <S.AboutContent>
                 <p><strong>Why Choose Us?</strong></p>
                 <ul>
                     <li>Tailored solutions designed specifically for your business needs.</li>
-                    <li>Expert team with diverse technical expertise.</li>
                     <li>Commitment to quality, security, and best practices.</li>
                     <li>Transparent communication throughout the project lifecycle.</li>
-                    <li>Ongoing support and maintenance to ensure long-term success.</li>
+                    <li>All development is done right here in the United States by a US-based team, ensuring data security, reliable communication - no outsourcing overseas.</li>
                 </ul>
                 
-                <p>Let's build something extraordinary together.</p>
+                <p style={{ textAlign: 'center', paddingTop: '40px', fontWeight: 'bold' }}>Let's build something extraordinary together.</p>
             </S.AboutContent>
         </S.AboutStyled>
+        </>
     );
 };

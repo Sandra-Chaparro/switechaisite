@@ -6,8 +6,8 @@ interface FAQItem {
   }
 const faqData: FAQItem[] = [
   {
-    question: "What services does your software consultancy offer?",
-    answer: "We provide comprehensive software consulting services including custom software development, system architecture design, cloud solutions, chatbot development and integration for websites, and technical consulting for businesses of all sizes."
+    question: "What services do you offer?",
+    answer: "We provide comprehensive software services including custom software development, API development and third-party integrations, chatbot development and integration for websites, and Domain & Hosting Setup."
   },
   {
     question: "How long does a typical project take?",
@@ -15,7 +15,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "What technologies do you specialize in?",
-    answer: "Our team specializes in modern web technologies (React, Next.js, Node.js), cloud platforms (AWS, Azure, Google Cloud), AI/ML frameworks, mobile development, and enterprise solutions. We stay current with the latest industry trends and technologies."
+    answer: "We use modern, industry-standard tools including React, Next.js, Astro, and Node.js to build fast, reliable websites and applications, and we integrate AI solutions like custom chatbots to add intelligent features that enhance user experience. We stay up-to-date with the latest web technologies and trends, so if your project requires a specific tool or framework not listed here, just let us know and we'll make it happen."
   },
   {
     question: "Do you offer post-launch support and maintenance?",
@@ -28,6 +28,10 @@ const faqData: FAQItem[] = [
   {
     question: "What is your pricing model?",
     answer: "We offer flexible pricing models including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, complexity, and timeline. Contact us for a customized quote based on your specific needs."
+  },
+  {
+    question: "Do you modify or update existing websites built by others?",
+    answer: "We focus exclusively on building new websites and applications, or adding features to systems we've created. This allows us to ensure the highest quality code and maintain full understanding of your project's architecture. If you have an existing website that needs updates, we'd be happy to discuss rebuilding it with a modern, custom solution tailored to your needs."
   }
 ];
 
@@ -49,14 +53,7 @@ export const FAQ: FC = () => {
         margin: '0 auto'
       }}>
         <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-          <h2 style={{
-            fontSize: '3rem',
-            fontWeight: 'bold',
-            color: 'white',
-            marginBottom: '16px'
-          }}>
-            Frequently Asked Questions
-          </h2>
+     
           <p style={{
             fontSize: '1.125rem',
             color: 'rgba(255, 255, 255, 0.9)'
@@ -153,7 +150,7 @@ export const FAQ: FC = () => {
           }}>
             Still have questions?
           </p>
-          <button style={{
+          <button   onClick={() => window.location.href = '/contact'} style={{
             padding: '12px 32px',
             fontSize: '1rem',
             fontWeight: '600',

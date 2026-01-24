@@ -7,7 +7,7 @@ export const AboutStyled = styled.section`
     padding: 50px 0 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin: -43px 0 50px;
+    margin: -23px 0 10px;
     z-index: 1;
     position: relative;
 `;
