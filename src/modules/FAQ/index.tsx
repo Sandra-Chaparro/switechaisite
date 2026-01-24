@@ -11,7 +11,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "How long does a typical project take?",
-    answer: "Project timelines vary based on scope and complexity. Small projects may take 2-4 weeks, while larger enterprise solutions can take 3-6 months or more. We provide detailed timeline estimates during our initial consultation phase."
+    answer: "Project timelines vary based on scope and complexity. Small projects may take 2-4 weeks, while larger projects can take 3-6 months or more. We provide detailed timeline estimates during our initial consultation phase."
   },
   {
     question: "What technologies do you specialize in?",
@@ -27,7 +27,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "What is your pricing model?",
-    answer: "We offer flexible pricing models including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, complexity, and timeline. Contact us for a customized quote based on your specific needs."
+    answer: "We have different pricing models depending on project scope, size, and timeline. A reponsive website for mobile and desktop, with 5 pages and hosting setup starts at $1300. Contact us for a customized quote based on your specific needs."
   },
   {
     question: "Do you modify or update existing websites built by others?",
