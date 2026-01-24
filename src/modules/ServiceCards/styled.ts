@@ -5,8 +5,6 @@ import { MediaQuery } from "@styles/mediaQuery";
 export const ServiceCardsStyled = styled.section`
     background: ${Theme.primary};
     padding-top: 90px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
     margin: -43px 0 50px;
     z-index: 1;
     position: relative;

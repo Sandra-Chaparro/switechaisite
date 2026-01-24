@@ -46,7 +46,7 @@ export const Contact: FC = () => {
     }, [status?.success]);
 
     return (
-        <S.ContactStyled>
+        <S.ContactStyled><div>Contact us and we will help you out!</div>
             <S.ContainerStyled>
                 <S.ContactBox>
                 </S.ContactBox>
@@ -180,11 +180,10 @@ export const Contact: FC = () => {
                                 >
                                     {isPending ? 'Submitting...' : 'Submit'}
                                 </button>
-                            </form>
-                        )}
+                            </form>)}
                     </TextBox>
                 </FadeIn>
             </S.ContainerStyled>
         </S.ContactStyled>
-    );
+        );
 };

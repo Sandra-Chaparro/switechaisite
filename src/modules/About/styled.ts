@@ -5,8 +5,6 @@ import { MediaQuery } from "@styles/mediaQuery";
 export const AboutStyled = styled.section`
     background: ${Theme.primary};
     padding: 50px 0 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
     margin: -23px 0 10px;
     z-index: 1;
     position: relative;
@@ -24,6 +22,8 @@ export const AboutContent = styled.div`
         margin-bottom: 20px;
         letter-spacing: -0.3px;
         opacity: 0.9;
+        padding-left: 35px;
+        padding-right: 35px;
 
         ${MediaQuery.max("lg")} {
             font-size: 16px;

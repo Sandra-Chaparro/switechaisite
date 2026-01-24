@@ -31,14 +31,14 @@ export const About: FC = () => {
 
         <S.AboutStyled>
             <S.AboutContent>
-                <p><strong>Why Choose Us?</strong></p>
+                <p><strong>Why Choose Us?</strong>
                 <ul>
                     <li>Tailored solutions designed specifically for your business needs.</li>
                     <li>Commitment to quality, security, and best practices.</li>
                     <li>Transparent communication throughout the project lifecycle.</li>
                     <li>All development is done right here in the United States by a US-based team, ensuring data security, reliable communication - no outsourcing overseas.</li>
                 </ul>
-                
+                </p>
                 <p style={{ textAlign: 'center', paddingTop: '40px', fontWeight: 'bold' }}>Let's build something extraordinary together.</p>
             </S.AboutContent>
         </S.AboutStyled>
