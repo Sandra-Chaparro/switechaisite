@@ -46,7 +46,7 @@ export const Contact: FC = () => {
     }, [status?.success]);
 
     return (
-        <S.ContactStyled><div>Contact us and we will help you out!</div>
+        <S.ContactStyled>
             <S.ContainerStyled>
                 <S.ContactBox>
                 </S.ContactBox>
