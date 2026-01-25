@@ -6,7 +6,6 @@ import { MediaQuery } from "@styles/mediaQuery";
 export const ContactStyled = styled.section`
     background: ${Theme.primary};
     padding-top: 90px;
-
     margin: -43px 0 90px;
     z-index: 1;
     position: relative;
@@ -32,11 +31,12 @@ export const ContainerStyled = styled(Container)`
 
 export const ContactBox = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 40px;
     margin: 10px 0;
+    width: 100%;
 
     ${MediaQuery.max("lg")} {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;     
     }
 `;

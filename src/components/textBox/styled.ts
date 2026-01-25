@@ -51,7 +51,7 @@ export const TextBotTextWrapper = styled.div`
     z-index: 2;
 
     ${MediaQuery.max("md")} {
-        max-width: 80%;
+        max-width: 100%;
     }
 `;
 

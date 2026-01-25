@@ -49,7 +49,6 @@ export const Contact: FC = () => {
         <S.ContactStyled>
             <S.ContainerStyled>
                 <S.ContactBox>
-                </S.ContactBox>
                 <FadeIn delay={0.3}>
                     <TextBox variant="background-text" bgText="Address">
                         {status?.success ? (
@@ -183,6 +182,7 @@ export const Contact: FC = () => {
                             </form>)}
                     </TextBox>
                 </FadeIn>
+                </S.ContactBox>
             </S.ContainerStyled>
         </S.ContactStyled>
         );
