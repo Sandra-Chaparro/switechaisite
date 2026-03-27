@@ -154,10 +154,28 @@ export const Contact: FC = () => {
                                         {status.message}
                                     </p>
                                 )}
-
                                 <button
                                     type="submit"
-                                    disabled={isPending}
+                                    disabled
+                                    style={{
+                                        width: '100%',
+                                        padding: '10px 16px',
+                                        marginTop: '12px',
+                                        backgroundColor: '#d1d5db',
+                                        color: '#9ca3af',
+                                        fontWeight: '500',
+                                        border: 'none',
+                                        borderRadius: '8px',
+                                        cursor: 'not-allowed',
+                                        opacity: 0.6,
+                                        transition: 'background-color 0.2s'
+                                    }}
+                                >
+                                    Submit
+                                </button>
+                                {/* <button
+                                    type="submit"
+                                    disabled// ={isPending}
                                     style={{
                                         width: '100%',
                                         padding: '10px 16px',
@@ -178,7 +196,7 @@ export const Contact: FC = () => {
                                     }}
                                 >
                                     {isPending ? 'Submitting...' : 'Submit'}
-                                </button>
+                                </button> */}
                             </form>)}
                     </TextBox>
                 </FadeIn>
